@@ -29,3 +29,10 @@ for(var i =2; i < limite; i++) {
     serie[2] + serie [1]
     serie.push(serie[i-1] + serie[i-2])
 }
+
+function datos(nombreCliente , montoAhorrado) {
+
+    let nombreCliente = prompt("Introduce tu nombre")
+    let montoAhorrado = prompt("Introduce el monto ahorrado")
+    console.log(`El nombre del cliente  es ${nombreCliente} y el monto ahorrado  es de  $${montoAhorrado} `)
+}  
